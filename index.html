@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Poligon — instalator Bangle.js</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⌚</text></svg>"
+    />
+  </head>
+  <body>
+    <main class="wrap">
+      <header>
+        <h1>Poligon <span class="sub">instalator Bangle.js</span></h1>
+        <p class="lead">
+          Podłącz zegarek przez Bluetooth i wgraj całą aplikację. Nie musisz klonować repozytorium
+          ani niczego instalować.
+        </p>
+      </header>
+
+      <section id="unsupported" class="card warn" hidden>
+        <h2>Ta przeglądarka nie obsługuje Web Bluetooth</h2>
+        <p>
+          Potrzebny jest <strong>Chrome</strong>, <strong>Edge</strong> lub <strong>Opera</strong> na
+          Windows, macOS, Linux albo Androidzie. Safari i przeglądarki na iOS nie mają Web Bluetooth.
+        </p>
+      </section>
+
+      <section class="card">
+        <div class="row">
+          <h2>Wersja</h2>
+          <span id="build" class="pill">ładowanie…</span>
+        </div>
+        <ul id="filelist" class="files"></ul>
+      </section>
+
+      <section class="card">
+        <div class="steps">
+          <button id="connect" class="btn primary" disabled>1. Połącz zegarek</button>
+          <button id="install" class="btn" disabled>2. Wgraj wszystko</button>
+        </div>
+
+        <label class="opt">
+          <input type="checkbox" id="force" />
+          Wgraj ponownie także pliki, które już są na zegarku
+        </label>
+
+        <div id="progress" class="progress" hidden>
+          <div id="bar" class="bar"></div>
+        </div>
+        <p id="status" class="status">Gotowy do połączenia.</p>
+      </section>
+
+      <section class="card">
+        <h2>Zanim zaczniesz</h2>
+        <ul class="tips">
+          <li>Bangle.js obsługuje <strong>jedno połączenie naraz</strong> — rozłącz aplikację mobilną i Web IDE.</li>
+          <li>Zegarek musi być odblokowany i mieć włączony Bluetooth.</li>
+          <li>Na liście urządzeń wybierz pozycję <code>Bangle.js xxxx</code>.</li>
+          <li>Pierwsza instalacja trwa dłużej — tła zajmują większość transferu. Kolejne pomijają pliki, które się nie zmieniły.</li>
+        </ul>
+      </section>
+
+      <details class="card log-wrap">
+        <summary>Log</summary>
+        <pre id="log" class="log"></pre>
+      </details>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

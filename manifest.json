@@ -1,0 +1,159 @@
+{
+  "name": "Poligon",
+  "version": "1.0.0",
+  "commit": "e0baa51",
+  "generated": "2026-08-18T15:33:01.992Z",
+  "totalSize": 283359,
+  "files": [
+    {
+      "name": "game.img",
+      "size": 61955,
+      "crc": 3333555037,
+      "url": "apps/game.img"
+    },
+    {
+      "name": "home_10.img",
+      "size": 61955,
+      "crc": 3235885900,
+      "url": "apps/home_10.img"
+    },
+    {
+      "name": "libqr",
+      "size": 3398,
+      "crc": 1406668337,
+      "url": "apps/libqr"
+    },
+    {
+      "name": "libqr.info",
+      "size": 113,
+      "crc": 2607716043,
+      "url": "apps/libqr.info"
+    },
+    {
+      "name": "lobby.img",
+      "size": 61955,
+      "crc": 1150254085,
+      "url": "apps/lobby.img"
+    },
+    {
+      "name": "poligon.app.js",
+      "size": 25467,
+      "crc": 2760950949,
+      "url": "apps/poligon.app.js"
+    },
+    {
+      "name": "poligon.info",
+      "size": 85,
+      "crc": 4247233848,
+      "url": "apps/poligon.info"
+    },
+    {
+      "name": "poligon_accel.js",
+      "size": 2063,
+      "crc": 294214558,
+      "url": "apps/poligon_accel.js"
+    },
+    {
+      "name": "poligon_baro.js",
+      "size": 2292,
+      "crc": 2320543972,
+      "url": "apps/poligon_baro.js"
+    },
+    {
+      "name": "poligon_ble.js",
+      "size": 8422,
+      "crc": 1959624065,
+      "url": "apps/poligon_ble.js"
+    },
+    {
+      "name": "poligon_compass.js",
+      "size": 6547,
+      "crc": 2914184035,
+      "url": "apps/poligon_compass.js"
+    },
+    {
+      "name": "poligon_game.js",
+      "size": 4330,
+      "crc": 2083954075,
+      "url": "apps/poligon_game.js"
+    },
+    {
+      "name": "poligon_gps.js",
+      "size": 2913,
+      "crc": 360491751,
+      "url": "apps/poligon_gps.js"
+    },
+    {
+      "name": "poligon_gps_screen.js",
+      "size": 3585,
+      "crc": 4069368803,
+      "url": "apps/poligon_gps_screen.js"
+    },
+    {
+      "name": "poligon_home.js",
+      "size": 3515,
+      "crc": 631069208,
+      "url": "apps/poligon_home.js"
+    },
+    {
+      "name": "poligon_hr.js",
+      "size": 2464,
+      "crc": 1511166047,
+      "url": "apps/poligon_hr.js"
+    },
+    {
+      "name": "poligon_lobby.js",
+      "size": 6040,
+      "crc": 2424981064,
+      "url": "apps/poligon_lobby.js"
+    },
+    {
+      "name": "poligon_log.js",
+      "size": 1340,
+      "crc": 1010847879,
+      "url": "apps/poligon_log.js"
+    },
+    {
+      "name": "poligon_logo_2.img",
+      "size": 2307,
+      "crc": 1987795946,
+      "url": "apps/poligon_logo_2.img"
+    },
+    {
+      "name": "poligon_mag.js",
+      "size": 2361,
+      "crc": 3808155589,
+      "url": "apps/poligon_mag.js"
+    },
+    {
+      "name": "poligon_messages.js",
+      "size": 7575,
+      "crc": 2637384861,
+      "url": "apps/poligon_messages.js"
+    },
+    {
+      "name": "poligon_msg.js",
+      "size": 3717,
+      "crc": 1364650288,
+      "url": "apps/poligon_msg.js"
+    },
+    {
+      "name": "poligon_qr.js",
+      "size": 4835,
+      "crc": 1328725695,
+      "url": "apps/poligon_qr.js"
+    },
+    {
+      "name": "poligon_step.js",
+      "size": 2309,
+      "crc": 1316716494,
+      "url": "apps/poligon_step.js"
+    },
+    {
+      "name": "poligon_ui.js",
+      "size": 1816,
+      "crc": 2505364070,
+      "url": "apps/poligon_ui.js"
+    }
+  ]
+}
